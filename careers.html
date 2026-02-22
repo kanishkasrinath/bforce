@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Careers at Bforce Media</title>
+    <meta name="description"
+        content="Join Bforce Media, the leading advertising & printing agency. We are hiring talented developers, designers, and marketers." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body class="font-sans bg-slate-50 text-slate-800">
+
+    <!-- Navigation (Same as index) -->
+    <nav class="fixed w-full z-50 transition-all duration-300 glass-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <a href="/" class="text-white font-['Outfit'] font-black text-2xl tracking-tight">
+                        <span
+                            class="text-bforce-blue bg-white px-2 py-1 rounded-bl-xl rounded-tr-xl shadow shadow-bforce-yellow/50">B</span>FORCE<span
+                            class="text-bforce-yellow font-light ml-1">MEDIA</span>
+                    </a>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:space-x-8">
+                    <a href="/"
+                        class="text-gray-300 hover:text-white px-1 py-1 text-sm font-medium transition-colors">Home</a>
+                    <a href="/services.html"
+                        class="text-gray-300 hover:text-white px-1 py-1 text-sm font-medium transition-colors">Services</a>
+                    <a href="/about.html"
+                        class="text-gray-300 hover:text-white px-1 py-1 text-sm font-medium transition-colors">About
+                        Us</a>
+                    <a href="/careers.html"
+                        class="text-bforce-yellow border-b-2 border-bforce-yellow px-1 py-1 text-sm font-medium transition-colors">Careers</a>
+                    <a href="/contact.html"
+                        class="text-gray-300 hover:text-white px-1 py-1 text-sm font-medium transition-colors">Contact</a>
+                </div>
+                <div class="hidden md:flex">
+                    <a href="/contact.html"
+                        class="bg-bforce-yellow text-slate-900 px-6 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-white hover:shadow-lg hover:shadow-bforce-yellow/30 transition-all transform hover:-translate-y-0.5">Get
+                        a Quote</a>
+                </div>
+                <div class="flex items-center md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white p-2">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden glass-dark border-t border-gray-700">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="/"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="/services.html"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+                <a href="/about.html"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About Us</a>
+                <a href="/careers.html"
+                    class="text-bforce-yellow block px-3 py-2 rounded-md text-base font-medium">Careers</a>
+                <a href="/contact.html"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-20 bg-slate-900 relative overflow-hidden">
+        <!-- Decor -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
+                class="w-full h-full object-cover opacity-20 animate-scale-in" alt="Team collaborating">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
+            <div
+                class="absolute top-1/4 right-1/4 w-32 h-32 bg-white rounded-full mix-blend-overlay filter blur-[64px] opacity-10 animate-float">
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center animate-fade-in">
+            <h1 class="text-4xl md:text-6xl font-['Outfit'] font-black text-white mb-6">Join the <span
+                    class="text-bforce-yellow">Force</span></h1>
+            <p class="text-gray-300 max-w-2xl mx-auto text-lg font-light leading-relaxed">
+                At Bforce Media, we're always looking for brilliant minds to create innovative digital and marketing
+                solutions. Discover your next big opportunity.
+            </p>
+        </div>
+    </section>
+
+    <!-- Job Listings -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12 text-center animate-on-scroll">
+                <h2 class="text-3xl font-['Outfit'] font-bold text-slate-900">Open Positions</h2>
+                <div class="w-24 h-1 bg-bforce-yellow mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 animate-on-scroll">
+
+                <!-- Job Card 1 -->
+                <div
+                    class="border border-gray-200 rounded-2xl p-8 hover:shadow-xl hover:border-bforce-blue/50 transition-all group relative overflow-hidden">
+                    <div
+                        class="absolute top-0 left-0 w-2 h-full bg-bforce-blue transform -translate-x-full group-hover:translate-x-0 transition-transform">
+                    </div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span
+                                class="bg-blue-100 text-bforce-blue text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">Engineering</span>
+                            <h3 class="text-2xl font-bold text-slate-800 font-['Outfit']">Senior Frontend Developer</h3>
+                        </div>
+                        <span class="text-gray-500 text-sm font-medium"><i
+                                class="fa-solid fa-location-dot text-bforce-yellow mr-1"></i> Colombo</span>
+                    </div>
+                    <p class="text-gray-600 mb-6 line-clamp-2">We are looking for an experienced developer with deep
+                        knowledge of React, Vue, or modern vanilla JS ecosystems to build complex web applications.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Full-time</span>
+                        <span class="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Hybrid</span>
+                        <span
+                            class="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Mid-Senior</span>
+                    </div>
+                    <a href="#apply"
+                        class="text-bforce-blue font-bold flex items-center gap-2 hover:gap-3 transition-all">Apply Now
+                        <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                </div>
+
+                <!-- Job Card 2 -->
+                <div
+                    class="border border-gray-200 rounded-2xl p-8 hover:shadow-xl hover:border-bforce-yellow/50 transition-all group relative overflow-hidden">
+                    <div
+                        class="absolute top-0 left-0 w-2 h-full bg-bforce-yellow transform -translate-x-full group-hover:translate-x-0 transition-transform">
+                    </div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span
+                                class="bg-yellow-100 text-yellow-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">Marketing</span>
+                            <h3 class="text-2xl font-bold text-slate-800 font-['Outfit']">Digital Marketing Strategist
+                            </h3>
+                        </div>
+                        <span class="text-gray-500 text-sm font-medium"><i
+                                class="fa-solid fa-location-dot text-bforce-yellow mr-1"></i> Colombo</span>
+                    </div>
+                    <p class="text-gray-600 mb-6 line-clamp-2">Plan and execute data-driven digital ad campaigns for
+                        top-tier corporate and government clientele.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Full-time</span>
+                        <span class="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">On-site</span>
+                    </div>
+                    <a href="#apply"
+                        class="text-bforce-blue font-bold flex items-center gap-2 hover:gap-3 transition-all">Apply Now
+                        <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                </div>
+
+                <!-- Job Card 3 -->
+                <div
+                    class="border border-gray-200 rounded-2xl p-8 hover:shadow-xl hover:border-bforce-blue/50 transition-all group relative overflow-hidden">
+                    <div
+                        class="absolute top-0 left-0 w-2 h-full bg-bforce-blue transform -translate-x-full group-hover:translate-x-0 transition-transform">
+                    </div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span
+                                class="bg-blue-100 text-bforce-blue text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">Design</span>
+                            <h3 class="text-2xl font-bold text-slate-800 font-['Outfit']">UI/UX Graphic Designer</h3>
+                        </div>
+                        <span class="text-gray-500 text-sm font-medium"><i
+                                class="fa-solid fa-location-dot text-bforce-yellow mr-1"></i> Remote</span>
+                    </div>
+                    <p class="text-gray-600 mb-6 line-clamp-2">Design stunning interfaces for apps and create
+                        high-quality print branding materials like visiting cards and name boards.</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Contract</span>
+                        <span class="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Remote</span>
+                    </div>
+                    <a href="#apply"
+                        class="text-bforce-blue font-bold flex items-center gap-2 hover:gap-3 transition-all">Apply Now
+                        <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section id="apply" class="py-24 bg-slate-100 border-t border-gray-200">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 animate-on-scroll">
+            <div class="bg-white rounded-3xl p-10 shadow-xl border border-gray-100">
+                <div class="text-center mb-10">
+                    <h3 class="text-3xl font-['Outfit'] font-bold text-slate-900 mb-3">Submit Your Application</h3>
+                    <p class="text-gray-500">Don't see a perfect fit? Send us your resume anyway!</p>
+                </div>
+
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- First Name -->
+                        <div>
+                            <label for="fname" class="block text-sm font-medium text-slate-700 mb-2">First Name</label>
+                            <input type="text" id="fname"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bforce-blue focus:border-bforce-blue transition-colors outline-none"
+                                placeholder="John" required>
+                        </div>
+                        <!-- Last Name -->
+                        <div>
+                            <label for="lname" class="block text-sm font-medium text-slate-700 mb-2">Last Name</label>
+                            <input type="text" id="lname"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bforce-blue focus:border-bforce-blue transition-colors outline-none"
+                                placeholder="Doe" required>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Email -->
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-slate-700 mb-2">Email
+                                Address</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bforce-blue focus:border-bforce-blue transition-colors outline-none"
+                                placeholder="john@example.com" required>
+                        </div>
+                        <!-- Phone -->
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-slate-700 mb-2">Phone
+                                Number</label>
+                            <input type="tel" id="phone"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bforce-blue focus:border-bforce-blue transition-colors outline-none"
+                                placeholder="+94 77 123 4567" required>
+                        </div>
+                    </div>
+
+                    <!-- Position -->
+                    <div>
+                        <label for="position" class="block text-sm font-medium text-slate-700 mb-2">Position Applied
+                            For</label>
+                        <select id="position"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bforce-blue focus:border-bforce-blue transition-colors outline-none bg-white">
+                            <option value="">Select a position...</option>
+                            <option value="frontend">Senior Frontend Developer</option>
+                            <option value="marketing">Digital Marketing Strategist</option>
+                            <option value="design">UI/UX Graphic Designer</option>
+                            <option value="other">Other / General Application</option>
+                        </select>
+                    </div>
+
+                    <!-- Resume Upload -->
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-2">Resume / CV</label>
+                        <div
+                            class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-lg hover:bg-slate-50 transition-colors cursor-pointer group">
+                            <div class="space-y-1 text-center">
+                                <i
+                                    class="fa-solid fa-cloud-arrow-up text-4xl text-gray-400 group-hover:text-bforce-blue transition-colors mb-3"></i>
+                                <div class="flex text-sm text-gray-600 justify-center">
+                                    <label for="file-upload"
+                                        class="relative cursor-pointer bg-white rounded-md font-medium text-bforce-blue hover:text-blue-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-bforce-blue">
+                                        <span>Upload a file</span>
+                                        <input id="file-upload" name="file-upload" type="file" class="sr-only">
+                                    </label>
+                                    <p class="pl-1">or drag and drop</p>
+                                </div>
+                                <p class="text-xs text-gray-500">PDF, DOCX up to 10MB</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cover Letter -->
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-slate-700 mb-2">Cover Letter
+                            (Optional)</label>
+                        <textarea id="message" rows="4"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bforce-blue focus:border-bforce-blue transition-colors outline-none"
+                            placeholder="Tell us why you are a great fit..."></textarea>
+                    </div>
+
+                    <div class="pt-4">
+                        <button type="submit"
+                            class="w-full flex justify-center py-4 px-4 border border-transparent rounded-full shadow-sm text-lg font-bold text-slate-900 bg-bforce-yellow hover:bg-yellow-400 hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bforce-yellow">
+                            Submit Application
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="bg-slate-950 pt-20 pb-10 border-t-4 border-bforce-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div class="space-y-6">
+                    <div class="text-white font-['Outfit'] font-black text-2xl tracking-tight flex items-center gap-2">
+                        <span class="text-bforce-blue bg-white px-2 py-1 rounded-bl-xl rounded-tr-xl">B</span>FORCE<span
+                            class="text-bforce-yellow font-light">MEDIA</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">Your 360° Partner for Software Development, Digital
+                        Marketing, and Printing Solutions. Delivering excellence to the public and private sectors.</p>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-300 hover:bg-bforce-blue hover:text-white transition-colors"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-300 hover:bg-bforce-blue hover:text-white transition-colors"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-300 hover:bg-bforce-blue hover:text-white transition-colors"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 font-['Outfit'] uppercase tracking-wider text-sm">Quick Links
+                    </h4>
+                    <ul class="space-y-3">
+                        <li><a href="/"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">Home</a></li>
+                        <li><a href="/about.html"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">About Us</a>
+                        </li>
+                        <li><a href="/careers.html"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">Careers
+                                Portal</a></li>
+                        <li><a href="/contact.html"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 font-['Outfit'] uppercase tracking-wider text-sm">Core Services
+                    </h4>
+                    <ul class="space-y-3">
+                        <li><a href="/services.html"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">Web & App
+                                Development</a></li>
+                        <li><a href="/services.html"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">Software
+                                Development</a></li>
+                        <li><a href="/services.html"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">Digital
+                                Marketing</a></li>
+                        <li><a href="/services.html"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">Printing
+                                Solutions & Signage</a></li>
+                        <li><a href="/services.html"
+                                class="text-gray-400 hover:text-bforce-yellow transition-colors text-sm">Event
+                                Management</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 font-['Outfit'] uppercase tracking-wider text-sm">Contact
+                        Details</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-gray-400 text-sm">
+                            <i class="fa-solid fa-location-dot mt-1 text-bforce-yellow"></i>
+                            <span>123 Baseline Road, <br>Colombo, Sri Lanka</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-400 text-sm">
+                            <i class="fa-solid fa-phone text-bforce-yellow"></i>
+                            <span>+94 11 234 5678</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-400 text-sm">
+                            <i class="fa-solid fa-envelope text-bforce-yellow"></i>
+                            <span>info@bforcemedia.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="pt-8 border-t border-white/10 text-center flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">&copy; 2026 Bforce Media Pvt Ltd. All rights reserved.</p>
+                <div class="text-gray-500 text-sm flex gap-4">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>
